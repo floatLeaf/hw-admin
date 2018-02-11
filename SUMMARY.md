@@ -14,6 +14,7 @@
   * [上传发票 + 发票号](上传发票--发票号.md)
   * [单张图片上传](单张图片上传.md)
   * [账户新增\(一行一个input\)](账户新增.md)
+  * [checkbox、radio](div-仿select.md)
   * [帐号信息（一行两个input）](帐号信息（一行两个input）.md)
   * [创建帐号（居中显示）](创建帐号（居中显示）.md)
   * [div 仿select](div-仿select.md)
