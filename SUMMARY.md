@@ -28,6 +28,7 @@
   * [列表分页](lie-biao-fen-ye.md)
   * [列表详情查看](lie-biao-xiang-qing-cha-kan.md)
   * [列表详情编辑](lie-biao-xiang-qing-bian-ji.md)
+  * [统计列表](tong-ji-lie-biao.md)
 * [模态框](mo-tai-kuang.md)
   * [alert 提示框](alert-ti-shi-kuang.md)
   * [确认框提示](que-ren-kuang-ti-shi.md)
