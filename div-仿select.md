@@ -1,1 +1,44 @@
+####div仿select样式（ie上太丑）
+
+>input是只读的，点击下拉的属性会获取data-value的值， 如果不存在则获取innerText内容填充到input中。如过值发生改变，js会触发input的change事件。 如果是不可编辑的， 需要在input上追加class名 readonly
+
+```
+<div class="form-input-wrap select">
+  <label class="input-lable"><span>*</span>生产批号</label>
+  <div class="input-wrap "> 
+      <input type="text" name="batchNumber" readonly required="" placeholder="请选择生产批号">
+      <div class="select-down-lists">
+          <div class="list" data-value="select-1">select-1</div>
+          <div class="list" data-value="select-2">select-2</div>
+          <div class="list">select-3</div>
+          <div class="list">select-4</div>
+          <div class="list">select-5</div>
+          <div class="list">select-6</div>
+          <div class="list">select-6</div>
+          <div class="list">select-6</div>
+          <div class="list">select-6</div>
+      </div>
+  </div>
+</div>
+
+<div class="form-input-wrap select">
+  <label class="input-lable"><span>*</span>生产批号</label>
+  <div class="input-wrap "> 
+      <input type="text" name="batchNumber" class="readonly" readonly required="" placeholder="请选择生产批号" value="select-3">
+
+      <div class="select-down-lists">
+          <div class="list" data-value="select-1">select-1</div>
+          <div class="list" data-value="select-2">select-2</div>
+          <div class="list">select-3</div>
+          <div class="list">select-4</div>
+          <div class="list">select-5</div>
+          <div class="list">select-6</div>
+          <div class="list">select-6</div>
+          <div class="list">select-6</div>
+          <div class="list">select-6</div>
+      </div>
+  </div>
+</div>
+```
+<br/>
 <iframe width="100%" height="300" src="//jsrun.net/BFqKp/embedded/all/light/" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
