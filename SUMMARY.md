@@ -30,4 +30,5 @@
   * [列表详情编辑](lie-biao-xiang-qing-bian-ji.md)
 * 模态框
   * [alert 提示框](alert-ti-shi-kuang.md)
+  * [确认框提示](que-ren-kuang-ti-shi.md)
 
