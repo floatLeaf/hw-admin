@@ -26,4 +26,7 @@
   * [带title的列表](daititle-de-lie-biao.md)
   * [带背景色title 列表](dai-bei-jing-se-title-lie-biao.md)
   * [列表分页](lie-biao-fen-ye.md)
+  * [列表详情查看](lie-biao-xiang-qing-cha-kan.md)
+* 模态框
+  * [alert 提示框](alert-ti-shi-kuang.md)
 
