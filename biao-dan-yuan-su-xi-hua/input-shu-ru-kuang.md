@@ -1,5 +1,5 @@
 >常规表单输入框组， 默认display 属性是inline-block
-
+![](/assets/1519628417(1).jpg)
 ```
 <div class="form-input-wrap">
     <label class="input-lable"><span>*</span>商品名称</label>
@@ -69,8 +69,17 @@
 <div class="form-input-wrap">
     <label class="input-lable"><span>*</span>商品名称</label>
     <div class="input-wrap text-only">   
-        <input type="hidden" readonly name="" id="goods-name">
+        <input type="hidden" readonly name="" id="goods-name" value="阿拉蕾">
     </div>
 </div>
+
+<!-- 纯文字展示 -->
+<div class="form-input-wrap">
+    <label class="input-lable"><span>*</span>商品名称</label>
+    <div class="input-wrap text-only">   
+        <span class="text">阿拉蕾</span>
+    </div>
+</div>
+
 ```	
 
