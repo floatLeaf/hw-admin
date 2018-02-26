@@ -33,7 +33,6 @@
 
 >只能输入数字的input, 为input添加number 类名
 
-
 ```
 <div class="form-input-wrap">
     <label class="input-lable"><span>*</span>商品名称</label>
@@ -63,3 +62,16 @@
     });
 </script>
 ```
+
+>只读input 
+
+```
+<div class="form-input-wrap">
+    <label class="input-lable"><span>*</span>商品名称</label>
+    <div class="input-wrap text-only">  
+        <span class="text">阿莫西西</span>
+        <input type="hidden" readonly="" name="" id="goods-name">
+    </div>
+</div>
+```	
+
