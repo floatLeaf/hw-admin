@@ -8,9 +8,9 @@
     </div>
 </div>
 ```
+<br/>
 	
 >浮动表单输入框组，父元素。form-row用于清除浮动, (每行最多三个)
-
 ![](http://jc519.oss-cn-beijing.aliyuncs.com/2c69acb0dca0b5f0c7b0ff4a9a30fce5.jpg
 )
 
