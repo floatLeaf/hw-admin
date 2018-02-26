@@ -1,4 +1,4 @@
->常规表单输入框组， 默认display 属性是inline-block
+####常规表单输入框组， 默认display 属性是inline-block
 
 ![](http://jc519.oss-cn-beijing.aliyuncs.com/060b4c946e47256221fc857bec78d9e7.jpg)
 ```
@@ -10,7 +10,7 @@
 </div>
 ``` 
 	
->浮动表单输入框组，父元素。form-row用于清除浮动, (每行最多三个)
+####浮动表单输入框组，父元素。form-row用于清除浮动, (每行最多三个)
 
 ![](http://jc519.oss-cn-beijing.aliyuncs.com/2c69acb0dca0b5f0c7b0ff4a9a30fce5.jpg)
 
@@ -34,7 +34,7 @@
 ```
 
 
->只能输入数字的input, 为input添加number 类名
+####只能输入数字的input, 为input添加number 类名
 
 ```
 <div class="form-input-wrap">
@@ -66,13 +66,14 @@
 </script>
 ```
 
->只读input 
+####只读input 
 
+![](http://jc519.oss-cn-beijing.aliyuncs.com/a4f580d8717c07c09aebafd5c2617dfe.jpg)
 ```
 <div class="form-input-wrap">
     <label class="input-lable"><span>*</span>商品名称</label>
     <div class="input-wrap text-only">   
-        <input type="hidden" readonly name="" id="goods-name" value="阿拉蕾">
+        <input type="text" readonly name="" id="goods-name" value="阿拉蕾">
     </div>
 </div>
 
@@ -86,3 +87,14 @@
 
 ```	
 
+####带单位只读的input
+
+```
+<div class="form-input-wrap">
+    <label class="input-lable"><span>*</span>有效期</label>
+    <div class="input-wrap text-icon text-only ">
+        <input type="text" readonly name="" id="goods-name" value="12"> 
+        <span class="unit">个月</span>
+    </div>
+</div>
+```
