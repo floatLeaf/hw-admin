@@ -1,4 +1,5 @@
 >常规表单输入框组， 默认display 属性是inline-block
+
 ![](http://jc519.oss-cn-beijing.aliyuncs.com/060b4c946e47256221fc857bec78d9e7.jpg)
 ```
 <div class="form-input-wrap">
@@ -10,8 +11,8 @@
 ``` 
 	
 >浮动表单输入框组，父元素。form-row用于清除浮动, (每行最多三个)
-![](http://jc519.oss-cn-beijing.aliyuncs.com/2c69acb0dca0b5f0c7b0ff4a9a30fce5.jpg
-)
+
+![](http://jc519.oss-cn-beijing.aliyuncs.com/2c69acb0dca0b5f0c7b0ff4a9a30fce5.jpg)
 
 ```
 <div class="form-row">
