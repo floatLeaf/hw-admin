@@ -78,7 +78,17 @@
     </div>
 </div>
 ```
-
+####日期input 
+![](http://jc519.oss-cn-beijing.aliyuncs.com/6a56728b5ab4b43d1597052842a5ec7c.jpg)
+```
+<div class="form-input-wrap">
+    <label class="input-lable"><span>*</span>生产日期</label>
+    <div class="input-wrap text-icon">
+        <input id="product-date" class="Wdate" type="text" required="" name="productDate" onclick="WdatePicker({dateFmt: 'yyyy-MM-dd', maxDate:'%y-%M-%d', onpicked:function(){$(this).trigger('change')}})" readonly="" placeholder="请输入生产日期"> 
+        <span class="unit" onclick="WdatePicker({dateFmt: 'yyyy-MM-dd', maxDate:'%y-%M-%d', el:'product-date', onpicked:function(){$('#product-date').trigger('change')}})"><i class="iconfont"></i></span>
+    </div>
+</div>
+```
 
 ####只读input 
 
