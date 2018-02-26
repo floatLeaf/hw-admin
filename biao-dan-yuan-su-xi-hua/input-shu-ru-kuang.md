@@ -34,6 +34,7 @@
 ```
 
 
+
 ####只能输入数字的input, 为input添加number 类名
 
 ```
@@ -65,6 +66,19 @@
     });
 </script>
 ```
+####带单位input
+![](http://jc519.oss-cn-beijing.aliyuncs.com/003a6c4fddf865cb90ecdb9cc794d0c7.jpg)
+
+```
+<div class="form-input-wrap">
+    <label class="input-lable"><span>*</span>入库数量</label>
+    <div class="input-wrap text-icon">
+        <input type="number" min="0" required="" name="number" id="number">
+        <span class="unit">盒</span>
+    </div>
+</div>
+```
+
 
 ####只读input 
 
@@ -89,6 +103,7 @@
 
 ####带单位只读的input
 
+![](http://jc519.oss-cn-beijing.aliyuncs.com/feda3d1cd900befaad0c82168d826521.jpg)
 ```
 <div class="form-input-wrap">
     <label class="input-lable"><span>*</span>有效期</label>
