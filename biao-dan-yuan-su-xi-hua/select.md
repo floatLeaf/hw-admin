@@ -1,5 +1,8 @@
 ####div仿select样式（ie上太丑）
 
+<iframe width="100%" height="200" src="//jsrun.net/BFqKp/embedded/all/light/" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
+
+
 >input是只读的，点击下拉的属性会获取data-value的值， 如果不存在则获取innerText内容填充到input中。如过值发生改变，js会触发input的change事件。 如果是不可编辑的， 需要在input上追加class名 readonly
 
 ```
@@ -41,4 +44,4 @@
 </div>
 ```
 <br/>
-<iframe width="100%" height="200" src="//jsrun.net/BFqKp/embedded/all/light/" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
+
