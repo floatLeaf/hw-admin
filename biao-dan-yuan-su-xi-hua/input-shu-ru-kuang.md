@@ -1,5 +1,5 @@
 >常规表单输入框组， 默认display 属性是inline-block
-![](/assets/1519628417(1).jpg)
+![](http://jc519.oss-cn-beijing.aliyuncs.com/060b4c946e47256221fc857bec78d9e7.jpg)
 ```
 <div class="form-input-wrap">
     <label class="input-lable"><span>*</span>商品名称</label>
