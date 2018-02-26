@@ -68,9 +68,8 @@
 ```
 <div class="form-input-wrap">
     <label class="input-lable"><span>*</span>商品名称</label>
-    <div class="input-wrap text-only">  
-        <span class="text">阿莫西西</span>
-        <input type="hidden" name="" id="goods-name">
+    <div class="input-wrap text-only">   
+        <input type="hidden" readonly name="" id="goods-name">
     </div>
 </div>
 ```	
