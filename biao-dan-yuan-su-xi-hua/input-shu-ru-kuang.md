@@ -9,32 +9,36 @@
 </div>
 ```
 	
->浮动表单输入框组，父元素。form-row用于清除浮动
+>浮动表单输入框组，父元素。form-row用于清除浮动, (每行最多三个)
 
 ```
 <div class="form-row">
     <div class="form-input-wrap">
         <label class="input-lable"><span>*</span>通用名称</label>
         <div class="input-wrap">
-            <input type="text" class="number" autocomplete="off">
-            <div class="result-list hide"> </div>
+            <input type="text" class="number">
         </div>
     </div>
     
     <div class="form-input-wrap">
         <label class="input-lable"><span>*</span>通用名称</label>
         <div class="input-wrap">
-            <input type="text" class="number" autocomplete="off">
+            <input type="text" class="number">
             <div class="result-list hide"> </div>
         </div>
     </div>
-    
-    <div class="form-input-wrap">
-        <label class="input-lable"><span>*</span>通用名称</label>
-        <div class="input-wrap">
-            <input type="text" class="number" autocomplete="off">
-    	<div class="result-list hide"> </div>
-        </div>
+</div>
+```
+
+
+>只能输入数字的input 
+
+
+```
+<div class="form-input-wrap">
+    <label class="input-lable"><span>*</span>商品名称</label>
+    <div class="input-wrap text-only">  
+        <input type="text" readonly="" name="" id="goods-name">
     </div>
 </div>
 ```
