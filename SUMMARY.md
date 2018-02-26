@@ -35,5 +35,5 @@
   * [表单模态框](biao-dan-mo-tai-kuang.md)
 * [表单元素细化](biao-dan-yuan-su-xi-hua.md)
   * [input 输入框](biao-dan-yuan-su-xi-hua/input-shu-ru-kuang.md)
-  * [select](biao-dan-yuan-su-xi-hua/select.md)
+  * [checkbox、radio](biao-dan-yuan-su-xi-hua/select.md)
 

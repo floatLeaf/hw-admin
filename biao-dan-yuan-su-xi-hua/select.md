@@ -2,46 +2,60 @@
 
 <iframe width="100%" height="200" src="//jsrun.net/BFqKp/embedded/all/light/" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
 
-
->input是只读的，点击下拉的属性会获取data-value的值， 如果不存在则获取innerText内容填充到input中。如过值发生改变，js会触发input的change事件。 如果是不可编辑的， 需要在input上追加class名 readonly
-
+####radio样式
 ```
-<div class="form-input-wrap select">
-  <label class="input-lable"><span>*</span>生产批号</label>
-  <div class="input-wrap "> 
-      <input type="text" name="batchNumber" readonly required="" placeholder="请选择生产批号">
-      <div class="select-down-lists">
-          <div class="list" data-value="select-1">select-1</div>
-          <div class="list" data-value="select-2">select-2</div>
-          <div class="list">select-3</div>
-          <div class="list">select-4</div>
-          <div class="list">select-5</div>
-          <div class="list">select-6</div>
-          <div class="list">select-6</div>
-          <div class="list">select-6</div>
-          <div class="list">select-6</div>
+<div class="form-input-wrap checkbox" style="margin-bottom: 0;">
+      <label class="input-lable">入库类型</label>
+      <div class="input-wrap two-row"> 
+        <label class="custom-check">
+            <img src="http://jc519.oss-cn-beijing.aliyuncs.com/ad8adb5cf40e5063b60ad33381886ed7.png" alt="">                
+            <input type="radio" name="jcStockOperationWayId" value="1">
+            <img src="http://jc519.oss-cn-beijing.aliyuncs.com/d772d6f5c75c4c683c0e06fefcdd115b.png" alt="">
+            <span>常温</span>
+        </label>
+
+        <label class="custom-check">
+            <img src="http://jc519.oss-cn-beijing.aliyuncs.com/ad8adb5cf40e5063b60ad33381886ed7.png" alt="">                
+            <input type="radio" name="jcStockOperationWayId" value="2">
+            <img src="http://jc519.oss-cn-beijing.aliyuncs.com/d772d6f5c75c4c683c0e06fefcdd115b.png" alt="">
+            <span>常温</span>
+        </label>
+
+        <label class="custom-check">
+            <img src="http://jc519.oss-cn-beijing.aliyuncs.com/ad8adb5cf40e5063b60ad33381886ed7.png" alt="">                
+            <input type="radio" name="jcStockOperationWayId" value="3">
+            <img src="http://jc519.oss-cn-beijing.aliyuncs.com/d772d6f5c75c4c683c0e06fefcdd115b.png" alt="">
+            <span>常温</span>
+        </label>
+
+        <label class="custom-check">
+            <img src="http://jc519.oss-cn-beijing.aliyuncs.com/ad8adb5cf40e5063b60ad33381886ed7.png" alt="">                
+            <input type="radio" name="jcStockOperationWayId" value="4">
+            <img src="http://jc519.oss-cn-beijing.aliyuncs.com/d772d6f5c75c4c683c0e06fefcdd115b.png" alt="">
+            <span>常温</span>
+        </label>
       </div>
   </div>
-</div>
+ ```
+ 
+ #### checkbox 样式
+```
+  <div class="form-input-wrap checkbox" style="margin-bottom: 0;">
+      <label class="input-lable">入库类型</label>
+      <div class="input-wrap one-row"> 
+        <label class="custom-check">
+            <img src="http://jc519.oss-cn-beijing.aliyuncs.com/b51354234fdd784cc247d57500db8cfe.png" alt="">             
+            <input type="checkbox" name="jcStockOperationWayId" value="1">
+            <img src="http://jc519.oss-cn-beijing.aliyuncs.com/6f36dfdc3ddc0ce44778da862c81329c.png" alt="">
+            <span>常温</span>
+        </label>
 
-<div class="form-input-wrap select">
-  <label class="input-lable"><span>*</span>生产批号</label>
-  <div class="input-wrap "> 
-      <input type="text" name="batchNumber" class="readonly" readonly required="" placeholder="请选择生产批号" value="select-3">
-
-      <div class="select-down-lists">
-          <div class="list" data-value="select-1">select-1</div>
-          <div class="list" data-value="select-2">select-2</div>
-          <div class="list">select-3</div>
-          <div class="list">select-4</div>
-          <div class="list">select-5</div>
-          <div class="list">select-6</div>
-          <div class="list">select-6</div>
-          <div class="list">select-6</div>
-          <div class="list">select-6</div>
+        <label class="custom-check">
+            <img src="http://jc519.oss-cn-beijing.aliyuncs.com/b51354234fdd784cc247d57500db8cfe.png" alt="">               
+            <input type="radio" name="jcStockOperationWayId" value="2">
+            <img src="http://jc519.oss-cn-beijing.aliyuncs.com/6f36dfdc3ddc0ce44778da862c81329c.png" alt="">
+            <span>常温</span>
+        </label>  
       </div>
   </div>
-</div>
 ```
-<br/>
-
