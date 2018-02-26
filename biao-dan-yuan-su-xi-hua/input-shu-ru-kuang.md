@@ -41,4 +41,25 @@
         <input type="text" readonly="" name="" id="goods-name">
     </div>
 </div>
+
+<script type="text/javascript">
+    var elem = $('input.number'),
+        preNum = 0;
+    elem.on('input propertychange', function() {
+      preNum = $(this).data('pre') || '';
+      var num = $(this).val();
+      
+      if (!/^(?:|[1-9]{1,}\d*)$/.test(num)) {
+        $(this).val(preNum);
+      } else {
+        $(this).data('pre', num);
+      }  
+    });
+    
+    elem.on('change', function() {
+      if ($(this).val() === '') {
+        $(this).val(0);
+      }
+    });
+</script>
 ```
