@@ -33,4 +33,6 @@
   * [确认框提示](que-ren-kuang-ti-shi.md)
   * [图片预览](tu-pian-yu-lan.md)
   * [表单模态框](biao-dan-mo-tai-kuang.md)
+* [表单元素细化](biao-dan-yuan-su-xi-hua.md)
+  * [input 输入框](biao-dan-yuan-su-xi-hua/input-shu-ru-kuang.md)
 
