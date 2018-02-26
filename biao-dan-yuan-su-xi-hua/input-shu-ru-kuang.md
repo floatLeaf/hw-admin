@@ -80,6 +80,7 @@
 ```
 ####日期input 
 ![](http://jc519.oss-cn-beijing.aliyuncs.com/6a56728b5ab4b43d1597052842a5ec7c.jpg)
+
 ```
 <div class="form-input-wrap">
     <label class="input-lable"><span>*</span>生产日期</label>
