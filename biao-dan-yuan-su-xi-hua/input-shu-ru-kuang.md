@@ -31,7 +31,7 @@
 ```
 
 
->只能输入数字的input 
+>只能输入数字的input, 为input添加number 类名
 
 
 ```
