@@ -31,8 +31,6 @@
         <div class="list">select-4</div>
         <div class="list">select-5</div> 
         <div class="list">select-6</div>
-        <div class="list">select-6</div>
-        <div class="list">select-6</div>
     </div>
 </div>
 ```
