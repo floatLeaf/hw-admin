@@ -29,8 +29,6 @@
         <div class="list" data-value="select-2">select-2</div>
         <div class="list">select-3</div>
         <div class="list">select-4</div>
-        <div class="list">select-5</div> 
-        <div class="list">select-6</div>
     </div>
 </div>
 ```
