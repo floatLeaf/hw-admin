@@ -1,6 +1,6 @@
 <iframe width="100%" height="300" src="//jsrun.net/4FqKp/embedded/all/light/" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
 
->所有的搜索条件包裹在类名为table-search-wrap的div中
+>所有的搜索条件包裹在类名为table-search-wrap的div中. 而且每一个输入框组的宽度是百分百
 
 ####单个input框
 
@@ -33,14 +33,33 @@
 </div>
 ```
 
-####常规搜索 一行展示三个input
+####常规搜索 一行展示三个input（.form-row类用于清除浮动）
 ```
 <div class="table-search-wrap">
     <h1 class="search-title"><i class="iconfont"></i>筛选查询<i class="iconfont arrow"></i></h1>
     <div class="content">
         <div class="form-row">
             <!--搜索的input框-->
+            <!--搜索的input框-->
+            <!--搜索的input框-->
+            
+            
         </div>
     </div>
+</div>
+```
+
+####特殊搜索 一行显示三个输入框 + 按钮， 外层div需要添加一个类名width-btn
+```
+<div class="table-search-wrap">
+    <h1 class="search-title"><i class="iconfont"></i>筛选查询<i class="iconfont arrow"></i></h1>
+    <div class="content width-btn">   
+        <div class="form-row">
+            <!--搜索的input框-->
+            <!--搜索的input框-->
+            <!--搜索的input框-->
+            <button class="x-btn-yellow" type="submit">查询</button>    
+        </div>
+    <div>
 </div>
 ```
