@@ -22,13 +22,13 @@
 <div class="content-group select">
     <label class="input-lable">地区</label>
     <div class="input-wrap "> 
-    <input type="text" name="batchNumber" readonly required="" placeholder="请选择生产批号">
-
-    <div class="select-down-lists">
-        <div class="list" data-value="select-1">select-1</div>
-        <div class="list" data-value="select-2">select-2</div>
-        <div class="list">select-3</div>
-        <div class="list">select-4</div>
+        <input type="text" name="batchNumber" readonly required="" placeholder="请选择生产批号">
+        <div class="select-down-lists">
+            <div class="list" data-value="select-1">select-1</div>
+            <div class="list" data-value="select-2">select-2</div>
+            <div class="list">select-3</div>
+            <div class="list">select-4</div>
+        </div>
     </div>
 </div>
 ```
